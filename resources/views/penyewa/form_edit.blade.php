@@ -75,7 +75,7 @@
                 @enderror
             </div>
             <button type="submit" class="btn btn-primary" name="proses">Ubah</button>
-            <a href="{{ url('/mobil') }}" class="btn btn-danger">Batal</a>
+            <a href="{{ url('/penyewa') }}" class="btn btn-danger">Batal</a>
         </form>
     @endforeach
 @endsection
